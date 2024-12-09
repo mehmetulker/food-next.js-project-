@@ -1,5 +1,6 @@
 import Header from "@/components/header/Header";
 import "../styles/globals.css";
+import Campaigns from "@/components/ui/Campaigns";
 
 export const metadata = {
   title: "Create Next App",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         <main>{children}</main>
+        <Campaigns />
       </body>
     </html>
   );
